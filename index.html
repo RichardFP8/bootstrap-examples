@@ -19,14 +19,17 @@
         <main>
             <!-- the container takes up the entire width of the viewport instead of being centered by default-->
            <div class="container-fluid">
-                <div class="row" style="border: 1px solid black"> 
-                    <div class="col-md-3"> 
+                <div class="row"> 
+                    <!--3 columns taking different amount of columns within row; all are center in large viewport; all are left-aligned in small viewport; 
+                        below that I don't know; some padding, don't know what unit though-->
+                    <div class="col-md-3 text-lg-center text-sm-left p-1"> 
                         <p>t perspiciadicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum qu</p>        
                     </div>
-                    <div class="col-md-5"> 
+                    <!-- Also has a blue-border with more padding than the other 2 <p>; text color is changed to blue too;-->
+                    <div class="col-md-5 text-primary p-4 border border-primary text-lg-center text-sm-left"> 
                         <p>t perspiciadicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum qu</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-lg-center text-sm-left p-1" >
                         <p>t  sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum qu</p>
                     </div>
                 </div>
